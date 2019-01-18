@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Fresh New Wallpapers For Desktop On Every Reload!</title>
+<style type="text/css">
+html,body{
+    margin:0;
+    height:100%;
+    overflow:hidden;
+}
+img{
+    min-height:100%;
+    min-width:100%;
+    height:auto;
+    width:auto;
+    position:absolute;
+    top:-100%; bottom:-100%;
+    left:-100%; right:-100%;
+    margin:auto;
+}
+</style>
+</head>
+<body onload="myFunction()">
+
+<!-- image displays here -->
+<div><img src="https://source.unsplash.com/random/1920x1080" alt="" /></div>
+
+<div id="messages">
+<h1>Fresh New Wallpapers Every Time</h1>
+Download Free Hd Quality Free Wallpapers. Change Wallpapers With Refresh Button! Also Scripts Which Will
+Auto Save 1000+ Wallpapers In Your Computer!<br> 
+You Can Save Images By Right Click > Save Images As
+</div>
+<style>
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    !height:35px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+  bottom: auto !important;
+  top: 30px;
+  left: 30px;
+    font-size: 17px;
+}
+#snackbar:hover{
+    opacity:0.5;
+}
+#snackbar2.show {
+    visibility: visible;
+    -webkit-animation: fade-in 0.5s, fadeout 0.5s 2.5s;
+}
+#snackbar2 {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+  top: auto !important;
+  bottom: 30px;
+  left: 35%;
+    font-size: 17px;
+}
+#snackbar2:hover{
+    opacity:0.5;
+}
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+#snackbar3.show {
+    visibility: visible;
+    -webkit-animation: fa-de-in 0.5s, fadeout 0.5s 2.5s;
+}
+#snackbar3 {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+  top: 30% ;
+  bottom: auto;
+  left: 80%;
+    font-size: 17px;
+}
+#snackbar3:hover{
+    opacity:0.5;
+}
+@-webkit-keyframes fadein {
+    from {top: 0; opacity: 0;} 
+    to {top: 0px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {top: 0; opacity: 0;}
+    to {top: 30px; opacity: 1;}
+}
+@-webkit-keyframes fade-in {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 0px; opacity: 1;}
+}
+
+@keyframes fade-in {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+@-webkit-keyframes fa-de-in {
+    from {right: 0; opacity: 0;} 
+    to {right: 0px; opacity: 1;}
+}
+
+@keyframes fa-de-in {
+    from {right: 0; opacity: 0;}
+    to {right: 30px; opacity: 1;}
+}
+</style>
+
+<div id="snackbar">wallpaper.khanalsameer.com.np</div>
+
+<div id="snackbar2">Save The Walpaper By : RightClick > SaveImageAs</div>
+
+<div id="snackbar3">Hit Refresh Every Time<br>To Get New Wallpaper<br><font color="red">Also Try<br>Our New Auto Wallpaper<br>Save Script</font></div>
+<script>
+function myFunction() {
+    var x = document.getElementById("snackbar")
+    var x2 = document.getElementById("snackbar2")
+     var x3 = document.getElementById("snackbar3")
+    x.className = "show";
+    x2.className = "show";
+    x3.className = "show";
+}
+</script>
+
+</body>
+</html>
